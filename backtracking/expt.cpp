@@ -57,7 +57,7 @@ void printSolution(vector<vector<vector<int>>>board ){
         cout<<endl;
     }
 }
-bool solveNQ()
+bool solve()
 {
     vector<vector<int>>board = { { 0, 0, 0, 0 },
                         { 0, 0, 0, 0 },
@@ -76,6 +76,6 @@ bool solveNQ()
 
 int main()
 {
-    solveNQ();
+    solve();
     return 0;
 }
